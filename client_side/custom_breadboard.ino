@@ -1,16 +1,11 @@
 #include "FirebaseESP8266.h"  // Install Firebase ESP8266 library
 #include <ESP8266WiFi.h>
-//#include <DHT.h>    // Install DHT11 Library and Adafruit Unified Sensor Library
-int a[2][2]={{1,2},{3,4}};
+
 
 #define FIREBASE_HOST "local-iterator-273207-default-rtdb.firebaseio.com" //Without http:// or https:// schemes
 #define FIREBASE_AUTH "XOPZJCNGbkojHryHRQwMms6FLafwd54q1KHLNBsM"
 #define WIFI_SSID "Venu"
 #define WIFI_PASSWORD "9849641927"
-
-
-int led = 5;     // Connect LED to D5
-
 
 
 //Define FirebaseESP8266 data object
