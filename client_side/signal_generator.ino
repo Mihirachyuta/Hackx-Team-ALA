@@ -2,8 +2,8 @@
 #include <WiFiClient.h>;
 #include <ThingSpeak.h>;
 
-const char* ssid = "Venu"; //Your Network SSID
-const char* password = "9849641927"; //Your Network Password
+const char* ssid = "****"; //Your Network SSID
+const char* password = "*****"; //Your Network Password
 WiFiClient client;
 unsigned long myChannelNumber = 944934 ; //Your Channel Number (Without Brackets)
 const char * myWriteAPIKey = "BD49CBANH6WVM6IL"; //Your Write API Key
